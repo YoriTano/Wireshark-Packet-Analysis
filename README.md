@@ -54,7 +54,7 @@ An overview of the key property columns listed for each packet:
 * Frame Number: This is essentially the sequence number of a packet within a particular capture. It helps you identify and refer to packets more easily. In your case, a frame number of 37 means it's the 37th packet captured since the beginning of the capture session. This number is assigned sequentially as packets are captured, starting with the number 1 for the first packet.
 
 * Frame Length: This indicates the size of the packet, including all headers and payload, measured in bytes. The frame length of 54 bytes means the total size of the packet is 54 bytes. This size includes everything from the lowest layer (physical layer) up to the highest layer present in the packet that Wireshark can decode. It's useful for understanding the size of the data being transmitted and can help in various analyses, such as identifying potential issues with packet sizes that might indicate fragmentation or other problems.
-* 
+
 
 ![image](https://github.com/YoriTano/Wireshark-Packet-Analysis/assets/106491544/fb087ff8-2a51-49ab-8b46-780a13c4c2f1)
 
